@@ -1,0 +1,2 @@
+console.log("sayan");
+//in begining to run javascript was mostly used with browser. later javascript engines came up and javascript started using everywhere. So, there are many new chnages in latest javascripts that the 10years back. Most preferred javascript engine is Node. In javascript it doesn't matter you use semicolon or not.Ryan Dahl is the founder of Node and Deno.
