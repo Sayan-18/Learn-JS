@@ -35,3 +35,16 @@ let someString = 100;
 let convetToString = String(someString);// number converted into string
 console.log(convetToString);
 console.log(typeof convetToString);
+
+
+//**********Operations**********/
+
+// console.log("2" > 1);
+// console.log(2 > "1");
+// console.log("2" + 1 + 2);
+// console.log(2 + 4 + "2");
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+//Here, The reason == and >,<, <=,>= is working differntly, Comparison conver null to a number, treating as 0. That's why (3) null >= 0 is true and (1) null>0 is false. 
