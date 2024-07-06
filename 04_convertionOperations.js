@@ -44,7 +44,14 @@ console.log(typeof convetToString);
 // console.log("2" + 1 + 2);
 // console.log(2 + 4 + "2");
 
+// When there is mismatch is datatype, we should not perform any comparison or conversion related task
+
 console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
-//Here, The reason == and >,<, <=,>= is working differntly, Comparison conver null to a number, treating as 0. That's why (3) null >= 0 is true and (1) null>0 is false. 
+//Here, The reason == and >,<, <=,>= is working differntly, Comparison conver null to a number, treating as 0. That's why (3) null >= 0 is true and (1) null>0 is false.
+
+//===(strict check)
+/*
+=== this will not only check the value, It will also check the datatype of the variables
+*/
