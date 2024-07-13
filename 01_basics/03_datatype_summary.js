@@ -35,3 +35,4 @@ let myObj = {
 let myFunction = function () {
     console.log("Function")
 }
+

@@ -1,0 +1,2 @@
+In javascript need to master objects and browser events
+
